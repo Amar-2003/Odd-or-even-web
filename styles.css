@@ -1,5 +1,8 @@
 #instructions{
-    text-align: center;
-    font-size: large;
-    color: firebrick;
+    
+    font-size: small;
+    color: green;
+    background-color: red;
+    width: inherit;
+    height: min-content;
 }
