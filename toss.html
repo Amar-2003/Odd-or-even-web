@@ -5,24 +5,7 @@
             Toss ! 
         </title>
         <link rel="stylesheet" href="styles.css">
-        <script>
-            document.addEventListener("DOMContentLoaded",function (){
-                let even = document.querySelector('#even')
-                let odd = document.querySelector('#odd')
-                even.addEventListener("click", function (){
-                    odd.style.visibility = "hidden"
-                    even.style.backgroundColor = "green"
-                    document.querySelector('#feedback1').innerHTML = "You chose even!"
-                    let chosen = "odd"
-                })
-                odd.addEventListener("click", function (){
-                    even.style.visibility = "hidden"
-                    odd.style.backgroundColor = "green"
-                    document.querySelector('#feedback1').innerHTML = "You chose odd!"
-                    let chosen = "even"
-                })
-            })
-        </script>
+        <script src="toss.js"></script>
     </head>
     <body>
         <h1> Odd or even?</h2>
