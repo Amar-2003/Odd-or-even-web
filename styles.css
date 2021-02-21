@@ -50,3 +50,7 @@ h1 {
     text-align: center;
     width: 400px;
 }
+.centered {
+    text-align: center;
+    font-size: medium;
+}
