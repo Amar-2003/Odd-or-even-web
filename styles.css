@@ -22,3 +22,22 @@
     height: 120px;
     width: 320px;
 }
+h1 {
+    text-align: center;
+    color: magenta;
+}
+#odd {
+    
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    
+}
+#even {
+    
+    background-color: white;
+    width: 200px;
+    height: 60px;
+    
+    
+}
