@@ -6,3 +6,19 @@
     width: inherit;
     height: min-content;
 }
+#tossform{
+    font-size: 16;
+    text-align: center;
+    color: indianred;
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 20px;
+    
+    
+
+}
+#tossbutton{
+    background-color: magenta;
+    height: 120px;
+    width: 320px;
+}
