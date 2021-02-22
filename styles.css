@@ -26,15 +26,8 @@ h1 {
     text-align: center;
     color: magenta;
 }
-#odd {
-    
-    background-color: red;
-    width: 200px;
-    height: 60px;
-    font-size: medium;
-    
-}
-#even {
+
+.forbutton {
     font-size: medium;
     background-color: red;
     width: 200px;
