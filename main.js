@@ -1,4 +1,6 @@
 document.addEventListener("DOMContentLoaded",function (){
+    let startplay1 = document.querySelector('#start_play1')
+    startplay1.style.visibility = "hidden"
     let batbutton = document.querySelector('#batchoice')
     let ballbutton = document.querySelector('#bowlchoice')
     batbutton.style.visibility = "hidden"
@@ -43,12 +45,15 @@ document.addEventListener("DOMContentLoaded",function (){
                     userbat = true
                     batbutton.style.backgroundColor = "green"
                     ballbutton.style.visibility = "hidden"
+                    startplay1.style.visibility = "visible"
                     
                 })
                 document.querySelector('#bowlchoice').addEventListener('click',function (){
                     userbat = false
                     ballbutton.style.backgroundColor = "green"
                     batbutton.style.visibility = "hidden"
+                    startplay1.style.visibility = "visible"
+
                 })
             }
             else
@@ -60,12 +65,16 @@ document.addEventListener("DOMContentLoaded",function (){
                     
                     document.querySelector('#cmptosschoice').innerHTML = "Computer chose Bowling"
                     userbat = true
+                    startplay1.style.visibility = "visible"
+
                 }
                 else
                 {
                     
                     document.querySelector('#cmptosschoice').innerHTML = "Computer chose Batting"
                     userbowl = false
+                    startplay1.style.visibility = "visible"
+
 
                 }
 
@@ -82,11 +91,15 @@ document.addEventListener("DOMContentLoaded",function (){
                     userbat = true
                     batbutton.style.backgroundColor = "green"
                     ballbutton.style.visibility = "hidden"
+                    startplay1.style.visibility = "visible"
+
                 })
                 document.querySelector('#bowlchoice').addEventListener('click',function (){
                     userbat = false
                     ballbutton.style.backgroundColor = "green"
                     batbutton.style.visibility = "hidden"
+                    startplay1.style.visibility = "visible"
+
 
                 })
             }
@@ -99,12 +112,16 @@ document.addEventListener("DOMContentLoaded",function (){
                     
                     document.querySelector('#cmptosschoice').innerHTML = "Computer chose Bowling"
                     userbat = true
+                    startplay1.style.visibility = "visible"
+
                 }
                 else
                 {
                     
                     document.querySelector('#cmptosschoice').innerHTML = "Computer chose Batting"
                     userbat = false
+                    startplay1.style.visibility = "visible"
+
                 }
 
             }

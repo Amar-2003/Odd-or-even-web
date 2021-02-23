@@ -17,10 +17,11 @@
     
 
 }
-#tossbutton{
+.forlargebuttons{
     background-color: magenta;
     height: 120px;
     width: 320px;
+    font-size: large;
 }
 h1 {
     text-align: center;
@@ -46,4 +47,13 @@ h1 {
 .centered {
     text-align: center;
     font-size: medium;
+}
+#play_start_button{
+    text-align: center;
+    font-size: large;
+    background-color: red;
+    color: green;
+}
+#tossdiv{
+    text-align: center;
 }
