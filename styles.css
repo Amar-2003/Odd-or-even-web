@@ -46,7 +46,15 @@ h1 {
 }
 .centered {
     text-align: center;
-    font-size: medium;
+    font-size: large;
+}
+.standard_div{
+    text-align: center;
+    font-size: large;
+    background-color: red;
+    color: green;
+    padding: 5px;
+    border: 2px solid green;
 }
 #play_start_button{
     text-align: center;
