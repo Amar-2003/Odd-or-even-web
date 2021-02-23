@@ -15,6 +15,9 @@
 #lets_toss:hover{
     background-color: green;
 }
+#start_play1:hover{
+    background-color: green;
+}
 #tossform{
     font-size: 16;
     text-align: center;
