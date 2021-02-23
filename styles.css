@@ -6,6 +6,15 @@
     width: inherit;
     height: min-content;
 }
+#lets_toss{
+    background-color: magenta;
+    height: 120px;
+    width: 320px;
+    font-size: large;
+}
+#lets_toss:hover{
+    background-color: green;
+}
 #tossform{
     font-size: 16;
     text-align: center;
@@ -36,6 +45,18 @@ h1 {
     
     
 }
+#runinput1{
+    font-size: medium;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+#even:hover{
+    background-color: green;
+}
+#odd:hover{
+    background-color: green;
+}
 #feedback1 {
     text-align: center;
     color: blue;
@@ -43,6 +64,14 @@ h1 {
 #tossinput {
     text-align: center;
     width: 400px;
+}
+#runinput1_button{
+    width: 200px;
+    height: 60px;
+
+}
+#runinput1_button:hover{
+    background-color: green;
 }
 .centered {
     text-align: center;
