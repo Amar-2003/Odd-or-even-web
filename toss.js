@@ -126,12 +126,21 @@ document.addEventListener("DOMContentLoaded",function (){
                 }
 
             }
-            function userbatting(){
-                return userbat;
-            }
+            
         }
         
     })
-    
+    document.querySelector('#start_play1').addEventListener('click',function (){
+        if(userbat)
+        {
+            var x = 1;
+            export default x;
+        }
+        else{
+            var x = 0;
+            export default x;
+        }
+    })    
     })
+    
     
