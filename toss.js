@@ -1,6 +1,10 @@
 
 document.addEventListener("DOMContentLoaded",function (){
     let startplay1 = document.querySelector('#start_play1')
+    if(startplay1 == null)
+    {
+        return 1;
+    }
     startplay1.style.visibility = "hidden"
     let batbutton = document.querySelector('#batchoice')
     let ballbutton = document.querySelector('#bowlchoice')
@@ -128,19 +132,16 @@ document.addEventListener("DOMContentLoaded",function (){
             }
             
         }
-        
-    })
-    document.querySelector('#start_play1').addEventListener('click',function (){
         if(userbat)
         {
-            var x = 1;
-            export default x;
+            document.querySelector('#feedback5').innerHTML = "You are batting"
         }
         else{
-            var x = 0;
-            export default x;
+            document.querySelector('#feedback5').innerHTML = "You are bowling"
         }
-    })    
+        
     })
+    
+})
     
     
