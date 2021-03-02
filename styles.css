@@ -54,7 +54,11 @@ h1 {
     border-radius: 8px;
     margin: 15px;
     font-family: 'Akaya Kanadaka', cursive;
-    
+    box-shadow: 0 4px 6px 0 rgba(247, 48, 48, 0.863), 0 4px 6px 0 rgba(247, 48, 48, 0.863);
+   
+}
+#enternum{
+    font-size: 30px;
 }
 #start_play1:hover{
     box-shadow: 0 8px 16px 0 rgba(240, 66, 211, 0.863), 0 6px 20px 0 rgba(240, 66, 211, 0.863);  
@@ -66,12 +70,22 @@ h1 {
     text-align: center;
 }
 #even:hover{
+    transition: all 0.9s ;
+    padding: 0;
+   margin: 0;
+   opacity: 1;
+   transition: 0s;
     background-color: rgb(10, 192, 10);
-    box-shadow: 0 8px 16px 0 rgba(98, 228, 104, 0.863), 0 6px 20px 0 rgba(98, 228, 104, 0.863);
+    box-shadow: 0 12px 20px 0 rgba(98, 228, 104, 0.863), 0 12px 20px 0 rgba(98, 228, 104, 0.863);
 }
 #odd:hover{
+    transition: all 0.9s ;
+    padding: 0;
+   margin: 0;
+   opacity: 1;
+   transition: 0s;
     background-color: rgb(10, 192, 10);
-    box-shadow: 0 8px 16px 0 rgba(98, 228, 104, 0.863), 0 6px 20px 0 rgba(98, 228, 104, 0.863);
+    box-shadow: 0 12px 20px 0 rgba(98, 228, 104, 0.863), 0 12px 20px 0 rgba(98, 228, 104, 0.863);
 }
 #feedback1 {
     text-align: center;
