@@ -130,8 +130,7 @@ document.addEventListener("DOMContentLoaded",function (){
                 }
 
             }
-            
-        }
+        
         if(userbat)
         {
             document.querySelector('#feedback5').innerHTML = "You are batting"
@@ -139,7 +138,7 @@ document.addEventListener("DOMContentLoaded",function (){
         else{
             document.querySelector('#feedback5').innerHTML = "You are bowling"
         }
-        
+        }       
     })
     
 })

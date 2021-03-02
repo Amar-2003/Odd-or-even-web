@@ -2,7 +2,56 @@ document.addEventListener('DOMContentLoaded',function() {
     
     let score1 = 0
     let score2 = 0
-    feedback5 = document.querySelector
+    while(true)
+    {
+        document.querySelector('#runinput1_button').addEventListener('click',function (){
+            let userrun = parseInt(document.querySelector('#runinput1').value);
+            let cmprun = Math.floor(Math.random() * 7);
+            document.querySelector('#enteredrun_1').innerHTML = "You entered " + userrun;
+            document.querySelector('#compchosenrun').innerHTML = "Computer chose " + cmprun;
+            
+    
+            if(userbat)
+            {   
+                document.querySelector('#status').innerHTML = "You are batting"
+                if(userrun == cmprun)
+                {
+                    feedback4.innerHTML = "you are out :("
+                    break;
+                }
+                else
+                {
+                    score1 += userrun
+                    document.querySelector('#player_runs').innerHTML = "Your current run is " + score1
+                }
+            }
+            else{
+                document.querySelector('#status').innerHTML = "You are bowling"
+                if(userrun != cmprun)
+                {
+                    score2 += cmprun
+                    document.querySelector('#computer_runs').innerHTML = "Computer's run is " + score2
+                }
+                else
+                {
+                    feedback4.innerHTML = "Computer is out :)"
+                    break;
+                }
+
+            }   
+
+
+        })
+    }
+    if(userbat)
+    {
+        let fate = "You are"
+    }
+    else
+    {
+        let fate = "Computer is "
+    }
+    document.querySelector('#feedback6').innerHTML = fate + " out"
 
     
 })
