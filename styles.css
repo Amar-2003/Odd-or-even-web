@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+*{
+    font-family: 'Akaya Kanadaka', cursive;
+}
 #instructions{
     
     font-size: medium;
@@ -34,6 +39,7 @@
     height: 120px;
     width: 320px;
     font-size: large;
+    font-family: 'Akaya Kanadaka', cursive;
 }
 h1 {
     text-align: center;
@@ -41,24 +47,45 @@ h1 {
 }
 
 .forbutton {
-    font-size: medium;
+    font-size: large;
     background-color: red;
     width: 200px;
     height: 60px;
-    
-    
+    border-radius: 8px;
+    margin: 15px;
+    font-family: 'Akaya Kanadaka', cursive;
+    box-shadow: 0 4px 6px 0 rgba(247, 48, 48, 0.863), 0 4px 6px 0 rgba(247, 48, 48, 0.863);
+   
+}
+#enternum{
+    font-size: 30px;
+}
+#start_play1:hover{
+    box-shadow: 0 8px 16px 0 rgba(240, 66, 211, 0.863), 0 6px 20px 0 rgba(240, 66, 211, 0.863);  
 }
 #runinput1{
-    font-size: medium;
+    font-size: 30px;
     width: 200px;
     height: 50px;
     text-align: center;
 }
 #even:hover{
-    background-color: green;
+    transition: all 0.9s ;
+    padding: 0;
+   margin: 0;
+   opacity: 1;
+   transition: 0s;
+    background-color: rgb(10, 192, 10);
+    box-shadow: 0 12px 20px 0 rgba(98, 228, 104, 0.863), 0 12px 20px 0 rgba(98, 228, 104, 0.863);
 }
 #odd:hover{
-    background-color: green;
+    transition: all 0.9s ;
+    padding: 0;
+   margin: 0;
+   opacity: 1;
+   transition: 0s;
+    background-color: rgb(10, 192, 10);
+    box-shadow: 0 12px 20px 0 rgba(98, 228, 104, 0.863), 0 12px 20px 0 rgba(98, 228, 104, 0.863);
 }
 #feedback1 {
     text-align: center;
@@ -93,6 +120,7 @@ h1 {
     font-size: large;
     background-color: red;
     color: green;
+    font-family: 'Akaya Kanadaka', cursive;
 }
 #tossdiv{
     text-align: center;
